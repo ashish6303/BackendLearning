@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/name', (req, res)=>{
-    res.send("My name is ashish prakash singh");
+    res.send("My name is ashish prakash singh. I am a software engineer");
 })
 
 app.listen(process.config.PORT, () => {
