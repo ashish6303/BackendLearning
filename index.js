@@ -9,9 +9,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('/name', (req, res)=>{
-    res.send("My name is ashish prakash singh. I am a software engineer");
+    res.send("My name is ashish prakash singh. I am a software engineer. This is testing");
 })
 
-app.listen(process.config.PORT, () => {
+app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
